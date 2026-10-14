@@ -71,27 +71,27 @@
   // 3. UNIT NAVIGATION & DUAL-MODE (Single Unit vs Full Book)
   // =========================================================================
   const units = [
-    { id: 'dua', num: 'افتتاحیہ', title: 'دعا', genre: 'مناجات', pageImg: 'assets/book_images/dua_page.png' },
-    { id: 'unit-1', num: '۱', title: 'حمد', genre: 'نظم', pageImg: 'assets/book_images/unit1_hamd_page.png' },
-    { id: 'unit-2', num: '۲', title: 'نعت', genre: 'نظم', pageImg: 'assets/book_images/unit2_naat_page.png' },
-    { id: 'unit-3', num: '۳', title: 'طبِ نبویﷺ اور ہماری صحت', genre: 'معلوماتی مضمون', pageImg: 'assets/book_images/unit3_tib_e_nabwi_page.png' },
-    { id: 'unit-4', num: '۴', title: 'بابائے اردو مولوی عبدالحق', genre: 'سوانحی خاکہ', pageImg: 'assets/book_images/unit4_baba_e_urdu_page.png' },
-    { id: 'unit-5', num: '۵', title: 'برسات', genre: 'نظم', pageImg: 'assets/book_images/unit5_barsat_page.png' },
-    { id: 'unit-6', num: '۶', title: 'پاکستان کی سیر', genre: 'سفرنامہ', pageImg: 'assets/book_images/unit6_pakistan_sair_page.png' },
-    { id: 'unit-7', num: '۷', title: 'نشانِ حیدر', genre: 'حب الوطنی', pageImg: 'assets/book_images/unit7_nishan_e_haider_page.png' },
-    { id: 'unit-8', num: '۸', title: 'ملی نغمہ', genre: 'قومی شاعری', pageImg: 'assets/book_images/unit8_milli_naghma_page.png' },
-    { id: 'unit-9', num: '۹', title: 'سلطان صلاح الدین ایوبی', genre: 'تاریخی خاکہ', pageImg: 'assets/book_images/unit9_salahuddin_page.png' },
-    { id: 'unit-10', num: '۱۰', title: 'قدرتی آفات اور ان سے بچاؤ', genre: 'سائنسی مضمون', pageImg: 'assets/book_images/unit10_qudrati_aafat_page.png' },
-    { id: 'unit-11', num: '۱۱', title: 'حضرت ابراہیم علیہ السلام', genre: 'قرآنی واقعہ', pageImg: 'assets/book_images/unit11_hazrat_ibrahim_page.png' },
-    { id: 'unit-12', num: '۱۲', title: 'انفارمیشن ٹیکنالوجی', genre: 'جدید سائنس', pageImg: 'assets/book_images/unit12_it_page.png' },
-    { id: 'unit-13', num: '۱۳', title: 'ہلالِ احمر', genre: 'فلاحی ادارہ', pageImg: 'assets/book_images/unit13_hilal_e_ahmar_page.png' },
-    { id: 'unit-14', num: '۱۴', title: 'ایک بادشاہ کی انوکھی خواہش', genre: 'سبق آموز کہانی', pageImg: 'assets/book_images/unit14_badshah_khwahish_page.png' },
-    { id: 'unit-15', num: '۱۵', title: 'علامہ اقبال اور نوجوان', genre: 'فکری مضمون', pageImg: 'assets/book_images/unit15_iqbal_naujawan_page.png' },
-    { id: 'unit-16', num: '۱۶', title: 'مردِ مسلمان', genre: 'کلامِ اقبال', pageImg: 'assets/book_images/unit16_marde_musalman_page.png' },
-    { id: 'unit-17', num: '۱۷', title: 'گلشن دو روز', genre: 'اخلاقی مضمون', pageImg: 'assets/book_images/unit17_gulshan_do_roz_page.png' },
-    { id: 'unit-18', num: '۱۸', title: 'رکشے والا', genre: 'معاشرتی خاکہ', pageImg: 'assets/book_images/unit18_rikshewala_page.png' },
-    { id: 'unit-19', num: '۱۹', title: 'پرانی موٹر', genre: 'مزاحیہ نظم', pageImg: 'assets/book_images/unit19_purani_motor_page.png' },
-    { id: 'unit-20', num: '۲۰', title: 'ٹریفک کے قوانین', genre: 'شہری شعور', pageImg: 'assets/book_images/unit20_traffic_rules_page.png' }
+    { id: 'dua', num: 'افتتاحیہ', title: 'مناجاتِ سحر', genre: 'مناجات و بندگی', pageImg: 'assets/book_images/dua_page.png' },
+    { id: 'unit-1', num: '۱', title: 'حمدِ باری تعالیٰ', genre: 'عرفانِ الٰہی', pageImg: 'assets/book_images/unit1_hamd_page.png' },
+    { id: 'unit-2', num: '۲', title: 'نعتِ رسولِ مقبولﷺ', genre: 'مدحتِ نبویﷺ', pageImg: 'assets/book_images/unit2_naat_page.png' },
+    { id: 'unit-3', num: '۳', title: 'طبِ نبویﷺ اور ہماری صحت', genre: 'اسلامی و سائنسی حکمت', pageImg: 'assets/book_images/unit3_tib_e_nabwi_page.png' },
+    { id: 'unit-4', num: '۴', title: 'بابائے اردو مولوی عبدالحق', genre: 'معمارِ زبان و ادب', pageImg: 'assets/book_images/unit4_baba_e_urdu_page.png' },
+    { id: 'unit-5', num: '۵', title: 'نغمۂ برسات', genre: 'فطری شاعری', pageImg: 'assets/book_images/unit5_barsat_page.png' },
+    { id: 'unit-6', num: '۶', title: 'نگارستانِ وطن (پاکستان کی سیر)', genre: 'تمدنی و جغرافیائی سفرنامہ', pageImg: 'assets/book_images/unit6_pakistan_sair_page.png' },
+    { id: 'unit-7', num: '۷', title: 'نشانِ حیدر — تمغۂ شجاعت', genre: 'عظمتِ شجاعت و حبِ وطن', pageImg: 'assets/book_images/unit7_nishan_e_haider_page.png' },
+    { id: 'unit-8', num: '۸', title: 'ملی نغمہ (پاسبانانِ وطن)', genre: 'ترانۂ وحدت و وفاداری', pageImg: 'assets/book_images/unit8_milli_naghma_page.png' },
+    { id: 'unit-9', num: '۹', title: 'سلطان صلاح الدین ایوبی', genre: 'عہد ساز سپہ سالار و فاتح', pageImg: 'assets/book_images/unit9_salahuddin_page.png' },
+    { id: 'unit-10', num: '۱۰', title: 'قدرتی آفات اور سائنسی تدابیر', genre: 'شہری دفاع و ہنگامی شعور', pageImg: 'assets/book_images/unit10_qudrati_aafat_page.png' },
+    { id: 'unit-11', num: '۱۱', title: 'حضرت ابراہیم علیہ السلام', genre: 'عزمِ توحید و تسلیم و رضا', pageImg: 'assets/book_images/unit11_hazrat_ibrahim_page.png' },
+    { id: 'unit-12', num: '۱۲', title: 'انفارمیشن ٹیکنالوجی اور عصرِ حاضر', genre: 'جدید سائنسی و ڈیجیٹل انقلاب', pageImg: 'assets/book_images/unit12_it_page.png' },
+    { id: 'unit-13', num: '۱۳', title: 'ہلالِ احمر (Red Crescent)', genre: 'بے لوث خدمتِ خلق کا ادارہ', pageImg: 'assets/book_images/unit13_hilal_e_ahmar_page.png' },
+    { id: 'unit-14', num: '۱۴', title: 'ایک بادشاہ کی انوکھی تمنا', genre: 'درسِ قناعت و اخلاقی تمثیل', pageImg: 'assets/book_images/unit14_badshah_khwahish_page.png' },
+    { id: 'unit-15', num: '۱۵', title: 'فکرِ اقبال اور نوجوان', genre: 'خودی و شاہین کا استعارہ', pageImg: 'assets/book_images/unit15_iqbal_naujawan_page.png' },
+    { id: 'unit-16', num: '۱۶', title: 'مردِ مسلمان (کلامِ اقبال)', genre: 'اوصافِ مومن کا آئینہ دار کلام', pageImg: 'assets/book_images/unit16_marde_musalman_page.png' },
+    { id: 'unit-17', num: '۱۷', title: 'گلشنِ دو روز (حقیقتِ حیات)', genre: 'اخلاقِ حسنہ و حقیقتِ کائنات', pageImg: 'assets/book_images/unit17_gulshan_do_roz_page.png' },
+    { id: 'unit-18', num: '۱۸', title: 'رکشے والا (عظمتِ محنت)', genre: 'تقدیسِ مشقت و رزقِ حلال', pageImg: 'assets/book_images/unit18_rikshewala_page.png' },
+    { id: 'unit-19', num: '۱۹', title: 'پرانی موٹر (سید ضمیر جعفری)', genre: 'شگفتہ کلامی و لطیف مزاح', pageImg: 'assets/book_images/unit19_purani_motor_page.png' },
+    { id: 'unit-20', num: '۲۰', title: 'شہری شعور اور ٹریفک کے قوانین', genre: 'قانون کی پاسداری و اجتماعی تحفظ', pageImg: 'assets/book_images/unit20_traffic_rules_page.png' }
   ];
 
   let activeUnitIndex = 0;
