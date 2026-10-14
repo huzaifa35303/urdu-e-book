@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://f0undr-urdu-ebook.vercel.app/sitemap.xml
