@@ -5,6 +5,38 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Gulzar&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap');
 
+/* Primary Nastaliq Web Font: Jameel Noori Nastaleeq (جمیل نوری نستعلیق) */
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Jameel Noori Nastaleeq'),
+       local('Jameel Noori Nastaleeq Regular'),
+       url('assets/fonts/JameelNooriNastaleeqRegular.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/149204/JameelNooriNastaleeqRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Jameel Noori Nastaleeq Bold'),
+       local('Jameel Noori Nastaleeq'),
+       url('assets/fonts/JameelNooriNastaleeqRegular.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/149204/JameelNooriNastaleeqRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq Kasheeda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Jameel Noori Nastaleeq Kasheeda'),
+       local('Jameel Noori Nastaleeq');
+}
+
 :root {
   color-scheme: light;
   
@@ -33,12 +65,12 @@
   --ruby-main: #9f1239;
   --ruby-pale: #ffe4e6;
   
-  --font-nastaliq: 'Noto Nastaliq Urdu', 'Gulzar', 'Jameel Noori Nastaliq', 'Urdu Typesetting', serif;
+  --font-nastaliq: 'Jameel Noori Nastaleeq', 'Jameel Noori Nastaleeq Regular', 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
   --font-ui: 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   
   --content-max-width: 980px;
-  --reading-font-size: 1.28rem;
-  --reading-line-height: 2.5;
+  --reading-font-size: 1.35rem;
+  --reading-line-height: 2.6;
   
   --shadow-sm: 0 1px 3px rgba(18, 40, 31, 0.05);
   --shadow-md: 0 4px 14px rgba(18, 40, 31, 0.08);
@@ -231,7 +263,7 @@ p, h1, h2, h3, h4, h5, h6, span, blockquote, .verse-text {
 .brand-title {
   font-size: 1.45rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   color: var(--emerald-deep);
   display: flex;
   align-items: center;
@@ -380,7 +412,7 @@ p, h1, h2, h3, h4, h5, h6, span, blockquote, .verse-text {
 .hero-title {
   font-size: clamp(2.2rem, 5vw, 3.8rem);
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.55;
   margin: 0 0 1rem;
   color: var(--text-primary);
 }
@@ -694,7 +726,7 @@ p, h1, h2, h3, h4, h5, h6, span, blockquote, .verse-text {
   font-weight: 700;
   color: var(--emerald-deep);
   margin: 0.4rem 0 0.8rem;
-  line-height: 1.35;
+  line-height: 1.6;
 }
 [data-theme="dark"] .unit-title {
   color: var(--emerald-light);

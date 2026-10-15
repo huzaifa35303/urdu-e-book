@@ -45,7 +45,7 @@
   // =========================================================================
   // 2. TEXT SIZE CONTROLLER (چھوٹا / معیاری / بڑا)
   // =========================================================================
-  const FONT_SIZES = ['1.15rem', '1.28rem', '1.45rem'];
+  const FONT_SIZES = ['1.2rem', '1.35rem', '1.55rem', '1.75rem'];
   let currentSizeIdx = parseInt(localStorage.getItem('f0undr-urdu-fontsize') || '1', 10);
 
   function applyFontSize(idx) {
